@@ -1,0 +1,74 @@
+ .repos__title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.repos .repos__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.repos__title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.repos__btn {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    padding: 2px;
+    background: #E0E0E0;
+    border-radius: 4px;
+}
+
+.btn {
+    padding: 7px 37px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.active {
+    background: var(--bg);
+}
+
+.item__btn {
+    padding: 9px 14px;
+    background: var(--color);
+    width: 100px;
+    color: var(--bg);
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 6px;
+}  
+
+.repos__list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.repos__item {
+    background: var(--bg);
+    padding: 10px;
+    position: relative;
+    max-width: 585px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.item__btn {
+    position: absolute;
+    right: 10px;
+    bottom: 28%;
+}
+
+.repos__btn_box {
+    display: flex;
+    justify-content: center;
+}

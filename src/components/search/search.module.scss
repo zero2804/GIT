@@ -1,0 +1,23 @@
+.search {
+    margin-top: 20px;
+}
+
+.input {
+    width: 87%;
+    padding: 10px 20px;
+    border-radius: 4px 0 0 4px;
+    background-color: var(--bg);
+    font-size: 14px;
+}
+
+.btn {
+    padding: 10px;
+    background: var(--color);
+    color: var(--bg);
+    font-size: 14px;
+    border-radius: 0 4px 4px 0;
+
+    &::placeholder {
+        color: var(--color);
+    }
+}

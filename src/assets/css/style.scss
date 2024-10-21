@@ -1,0 +1,46 @@
+@import url(./font.scss);
+
+:root {
+    --fontBase: 'OpenSans';
+    --body: #EFEFF2;
+    --bg: #fff;
+    --color: #3F3F3F;
+    --color-alt: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color);
+    background: var(--body);
+    font-family: var(--fontBase);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 12px;
+    max-width: 585px;
+    width: 100%;
+}
+
+input, textarea, button {
+    color: inherit;
+    background: transparent;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    font-size: inherit;
+}
